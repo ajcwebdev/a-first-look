@@ -1,0 +1,60 @@
+---
+import HelloMarkdown from '../components/markdown/HelloMarkdown.astro'
+import HelloReact from '../components/react/HelloReact.jsx'
+import HelloSvelte from '../components/svelte/HelloSvelte.svelte'
+import HelloVue from '../components/vue/HelloVue.vue'
+
+const someProps = {
+  count: 0,
+}
+
+let title = 'ajcwebdev-astro'
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+    <title>{title}</title>
+  </head>
+  
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>ajcwebdev-astro</h1>
+        </div>
+
+        <p>Hello! This is an example Astro project by Anthony Campolo (ajcwebdev).</p>
+      </header>
+
+      <HelloReact {...someProps} client:visible>
+        React
+      </HelloReact>
+
+      <HelloSvelte client:visible>
+        Svelte
+      </HelloSvelte>
+
+      <HelloVue client:visible>
+        Vue
+      </HelloVue>
+    </main>
+
+    <section>
+      <HelloMarkdown />
+    </section>
+
+    <footer>
+      <h3>Find me on the internet:</h3>
+
+      <ul>
+        <li><a href="https://ajcwebdev.com">Blog</a></li>
+        <li><a href="https://github.com/ajcwebdev">GitHub</a></li>
+        <li><a href="https://twitter.com/ajcwebdev">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

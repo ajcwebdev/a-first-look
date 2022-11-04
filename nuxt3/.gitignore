@@ -1,0 +1,15 @@
+.cache
+.DS_Store
+.env
+.nitro
+.nuxt
+.output
+.vercel
+.yarn
+*.log
+dist
+node_modules
+nuxt.d.ts
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

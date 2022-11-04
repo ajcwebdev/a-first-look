@@ -1,0 +1,28 @@
+---
+const res = await fetch('https://rickandmortyapi.com/graphql', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    query: `{
+      characters {
+        results {
+          name
+        }
+      }
+    }`
+  })
+})
+
+const { data } = await res.json()
+const { characters } = data
+---
+
+<h2>Rick and Morty GraphQL API</h2>
+
+<ul>
+  {characters.results.map(({ name }) => (
+    <li>{name}</li>
+  ))}
+</ul>

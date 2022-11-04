@@ -1,0 +1,16 @@
+{
+  "name": "ajcwebdev-nuxt3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "nuxt": "npm:nuxt3@latest",
+    "vercel": "latest"
+  }
+}

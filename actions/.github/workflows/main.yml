@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo "Hello from GitHub Actions"
+      - name: Run a multi-line script
+        run: |
+          echo "Job was triggered by a ${{ github.event_name }} event."
+          echo "Job is now running on a ${{ runner.os }} server hosted on GitHub."
+          echo "The branch name is ${{ github.ref }}."
+          echo "The repository name is ${{ github.repository }}."
+          echo "Job status is ${{ job.status }}."

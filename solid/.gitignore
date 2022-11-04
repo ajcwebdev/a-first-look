@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+.netlify
+netlify
+.vercel
+.layer0
+.solid
+.env
+package-lock.json

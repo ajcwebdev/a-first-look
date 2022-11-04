@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	-webkit-appearance: none;
+	appearance: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #f5f5f5;
+	color: #4d4d4d;
+	min-width: 230px;
+	max-width: 550px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 300;
+}
+
+:focus {
+	outline: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+section {
+	background: #fff;
+	margin: 130px 0 40px 0;
+	position: relative;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+section input::-webkit-input-placeholder {
+	font-style: italic;
+	font-weight: 300;
+	color: #e6e6e6;
+}
+
+section input::-moz-placeholder {
+	font-style: italic;
+	font-weight: 300;
+	color: #e6e6e6;
+}
+
+section input::input-placeholder {
+	font-style: italic;
+	font-weight: 300;
+	color: #e6e6e6;
+}
+
+section h1 {
+	position: absolute;
+	top: -155px;
+	width: 100%;
+	font-size: 100px;
+	font-weight: 100;
+	text-align: center;
+	color: rgba(175, 47, 47, 0.15);
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+
+.new-todo {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	font-size: 24px;
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: 1.4em;
+	color: inherit;
+	padding: 16px 16px 16px 60px;
+	border: 1px solid #999;
+	box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.003);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+main {
+	position: relative;
+	z-index: 2;
+	border-top: 1px solid #e6e6e6;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	position: relative;
+	font-size: 24px;
+	border-bottom: 1px solid #ededed;
+}
+
+ul li:last-child {
+	border-bottom: none;
+}
+
+ul li button.toggle {
+  z-index: 1;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+}
+
+ul li label {
+	word-break: break-all;
+	padding: 15px 15px 15px 60px;
+	display: block;
+	line-height: 1.2;
+	transition: color 0.4s;
+}
+
+ul li.completed label {
+	color: #d9d9d9;
+	text-decoration: line-through;
+}
+
+ul li.pending label {
+  color: #998ef1;
+}
+
+ul li .destroy {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	margin: auto 0;
+	font-size: 30px;
+	color: #cc9a9a;
+	margin-bottom: 11px;
+	transition: color 0.2s ease-out;
+}
+
+ul li .destroy:hover {
+	color: #af5b5e;
+}
+
+ul li .destroy:after {
+	content: '×';
+}
+
+ul li:hover .destroy {
+	display: block;
+}
+
+/*
+	Hack to remove background from Mobile Safari.
+	Can't use it globally since it destroys checkboxes in Firefox
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.toggle-all,
+	ul li .toggle {
+		background: none;
+	}
+
+	ul li .toggle {
+		height: 40px;
+	}
+}

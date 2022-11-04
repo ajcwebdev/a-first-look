@@ -1,0 +1,29 @@
+{
+  "environments": [
+    {
+      "id": "production",
+      "name": "Production",
+      "region": "us-west-2",
+      "source": {
+        "branch": "main"
+      },
+      "services": [
+        {
+          "id": "my-webapp",
+          "name": "my-webapp",
+          "type": "fargate",
+          "cpu": 0.5,
+          "memory": 1024,
+          "minInstances": 1,
+          "maxInstances": 1,
+          "buildCommand": "npm i",
+          "startCommand": "node index.js",
+          "envVariables": {
+            "APP_ENV": "production"
+          },
+          "port": 8080
+        }
+      ]
+    }
+  ]
+}

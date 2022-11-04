@@ -1,0 +1,21 @@
+{
+  "name": "ajcwebdev-grafbase-js",
+  "version": "1.0.0",
+  "description": "An example Grafbase project with the JavaScript Fetch API and Vite",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "query": "node index.js",
+    "dev": "vite"
+  },
+  "keywords": [ "GraphQL" ],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "grafbase": "^0.7.0",
+    "isomorphic-fetch": "^3.0.0",
+    "vercel": "^28.2.5",
+    "vite": "^3.1.2"
+  }
+}

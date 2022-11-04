@@ -1,0 +1,29 @@
+{
+  "name": "ajcwebdev-trpc",
+  "version": "1.0.0",
+  "description": "An example tRPC project",
+  "scripts": {
+    "server": "nodemon -e ts -w . -x ts-node ./server/index",
+    "start-client-dev": "wait-on tcp:2022 && ts-node ./client/index"
+  },
+  "keywords": [
+    "tRPC",
+    "TypeScript"
+  ],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "dependencies": {
+    "@trpc/client": "^10.0.0-proxy-beta.15",
+    "@trpc/server": "^10.0.0-proxy-beta.15",
+    "node-fetch": "2",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.3",
+    "@types/node-fetch": "2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "wait-on": "^6.0.1"
+  }
+}
