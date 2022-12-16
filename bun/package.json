@@ -1,17 +1,12 @@
 {
-  "name": "ajcwebdev-bun-next",
-  "version": "0.0.57",
-  "dependencies": {
-    "next": "12.2.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-is": "^17.0.2"
-  },
+  "name": "ajcwebdev-bun",
+  "module": "index.ts",
+  "type": "module",
   "devDependencies": {
-    "@types/react": "^18",
-    "bun-framework-next": "^12",
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "bun-types": "^0.3.0"
   },
-  "module": "index.js"
+  "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.1.1"
+  }
 }
