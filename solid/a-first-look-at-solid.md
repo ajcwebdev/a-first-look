@@ -143,11 +143,7 @@ function App() {
     <div>
       <header>
         <h1>A First Look at Solid</h1>
-        <a
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://github.com/solidjs/solid">
           Learn Solid
         </a>
       </header>
@@ -156,8 +152,7 @@ function App() {
 }
 
 render(
-  () => <App />,
-  document.getElementById('root')
+  () => <App />,document.getElementById('root')
 )
 ```
 
@@ -186,12 +181,7 @@ export default function App() {
     <div class="App">
       <header class="header">
         <h1>A First Look at Solid</h1>
-        <a
-          class="link"
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a class="link" href="https://github.com/solidjs/solid">
           Learn Solid
         </a>
       </header>
@@ -249,8 +239,7 @@ import App from "./routes/index"
 import "./root.css"
 
 render(
-  () => <App />,
-  document.getElementById('root')
+  () => <App />,document.getElementById('root')
 )
 ```
 
@@ -274,9 +263,7 @@ export default function Counter() {
   setInterval(() => setCount(count() + 1), 1000)
 
   return (
-    <>
-      Count: {count()}
-    </>
+    <>Count: {count()}</>
   )
 }
 ```
@@ -291,12 +278,7 @@ export default function App() {
     <div class="App">
       <header class="header">
         <h1>A First Look at Solid</h1>
-        <a
-          class="link"
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a class="link" href="https://github.com/solidjs/solid">
           Learn Solid
         </a>
 
@@ -318,20 +300,13 @@ import { createSignal, createEffect } from "solid-js"
 
 export default function Counter() {
   const [count, setCount] = createSignal(0)
-
-  createEffect(
-    () => count()
-  )
-
+  createEffect(() => count())
   return (
     <>
       <button onClick={() => setCount(count() + 1)}>
         Click Me
       </button>
-
-      <div>
-        The count is now: {count()}
-      </div>
+      <div>The count is now: {count()}</div>
     </>
   )
 }
@@ -362,10 +337,7 @@ export default function Users() {
 
   return (
     <>
-      <For
-        each={users()}
-        fallback={<p>Loading...</p>}
-      >
+      <For each={users()} fallback={<p>Loading...</p>}>
         {user => <div>{user.name}</div>}
       </For>
     </>
@@ -384,12 +356,7 @@ export default function App() {
     <div class="App">
       <header class="header">
         <h1>A First Look at Solid</h1>
-        <a
-          class="link"
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a class="link" href="https://github.com/solidjs/solid">
           Learn Solid
         </a>
 
@@ -457,21 +424,6 @@ Linked to ajcwebdev-solid
 
 ? Your build command (hugo build/yarn run build/etc): npm run build
 ? Directory to deploy (blank for current dir): dist
-
-Adding deploy key to repository...
-Deploy key added!
-
-Creating Netlify GitHub Notification Hooks...
-Netlify Notification Hooks configured!
-
-Success! Netlify CI/CD Configured!
-
-This site is now configured to automatically deploy from github branches & pull requests
-
-Next steps:
-
-  git push       Push to your git repository to trigger new site builds
-  netlify open   Open the Netlify admin URL of your site
 ```
 
 Open [ajcwebdev-solid.netlify.app](https://ajcwebdev-solid.netlify.app/).
@@ -494,7 +446,6 @@ echo > vercel.json
 ```bash
 pnpm vercel login
 pnpm vercel git connect --yes
-pnpm vercel --yes
 pnpm vercel --yes --prod
 ```
 
@@ -572,18 +523,14 @@ pnpm 0 deploy --site ajcwebdev-solid
 ```
 
 ```
-***** Deployment Complete ************************************************
-*                                                                        *
-*  🖥  Layer0 Developer Console:                                          *
-*  https://app.layer0.co/ajcwebdev/ajcwebdev-solid/env/default/builds/1  *
-*                                                                        *
-*  🔗 Permalink:                                                         *
-*  https://ajcwebdev-ajcwebdev-solid-main-1.free.layer0-perma.link       *
-*                                                                        *
-*  🌎 Edge:                                                              *
-*  https://ajcwebdev-ajcwebdev-solid-default.layer0-limelight.link       *
-*                                                                        *
-**************************************************************************
+🖥  Layer0 Developer Console:
+https://app.layer0.co/ajcwebdev/ajcwebdev-solid/env/default/builds/1
+
+🔗 Permalink:
+https://ajcwebdev-ajcwebdev-solid-main-1.free.layer0-perma.link
+
+🌎 Edge:
+https://ajcwebdev-ajcwebdev-solid-default.layer0-limelight.link
 ```
 
 Open [ajcwebdev-ajcwebdev-solid-default.layer0-limelight.link](https://ajcwebdev-ajcwebdev-solid-default.layer0-limelight.link/).
@@ -627,22 +574,17 @@ echo > src/entry-server.jsx
 import { mount, StartClient } from "solid-start/entry-client"
 
 mount(
-  () => <StartClient />,
-  document
+  () => <StartClient />, document
 )
 ```
 
 ```jsx
 // src/entry-server.jsx
 
-import {
-  StartServer, createHandler, renderAsync,
-} from "solid-start/entry-server"
+import { StartServer, createHandler, renderAsync } from "solid-start/entry-server"
 
 export default createHandler(
-  renderAsync(
-    (event) => <StartServer event={event} />
-  )
+  renderAsync((event) => <StartServer event={event} />)
 )
 ```
 
@@ -688,381 +630,6 @@ pnpm dev
 
 Open [localhost:3000](http://localhost:3000).
 
-### Solid Start Todos Route
-
-```bash
-echo > src/routes/todos.jsx
-```
-
-```jsx
-// src/routes/todos.jsx
-
-import { For, Show } from "solid-js"
-import { useLocation, useRouteData } from "solid-start"
-import { createServerAction$, createServerData$, createServerMultiAction$, redirect } from "solid-start/server"
-import db from "~/db"
-
-export const routeData = () => createServerData$(db.getTodos, { initialValue: [] })
-
-export default function Home() {
-  const todos = useRouteData()
-  const location = useLocation()
-
-  const [addingTodo, addTodo] = createServerMultiAction$(addTodoFn)
-  const [removingTodo, removeTodo] = createServerMultiAction$(removeTodoFn)
-
-  const filterList = (todos) => {
-    if (location.query.show === "active") return todos.filter(todo => !todo.completed)
-    else if (location.query.show === "completed") return todos.filter(todo => todo.completed)
-    else return todos
-  }
-
-  let inputRef
-  return (
-    <section class="todoapp">
-      <header>
-        <h1>todos</h1>
-        <addTodo.Form onSubmit={e => {
-          if (!inputRef.value.trim()) e.preventDefault()
-          setTimeout(() => (inputRef.value = ""))
-        }}>
-          <input
-            name="title"
-            class="new-todo"
-            placeholder="What needs to be done?"
-            ref={inputRef}
-            autofocus
-          />
-        </addTodo.Form>
-      </header>
-
-      <main>
-        <ul>
-          <For each={filterList(todos())}>
-            {todo => {
-              const [togglingTodo, toggleTodo] = createServerAction$(toggleTodoFn)
-              const title = () => todo.title
-              const pending = () => togglingTodo.pending
-              const completed = () => togglingTodo.pending
-                ? !togglingTodo.input.get("completed")
-                : todo.completed
-              const removing = () => removingTodo.some(data => +data.input.get("id") === todo.id)
-
-              return (
-                <Show when={!removing()}>
-                  <li
-                    classList={{
-                      completed: completed(),
-                      pending: pending()
-                    }}
-                  >
-                    <div>
-                      <toggleTodo.Form>
-                        <input type="hidden" name="id" value={todo.id} />
-                        <button type="submit" class="toggle" disabled={pending()}>
-                          {completed() ? "✅" : "⚪️"}
-                        </button>
-                      </toggleTodo.Form>
-                      <label>{title()}</label>
-                      <removeTodo.Form>
-                        <input type="hidden" name="id" value={todo.id} />
-                        <button type="submit" class="destroy" />
-                      </removeTodo.Form>
-                    </div>
-                  </li>
-                </Show>
-              )
-            }}
-          </For>
-          <For each={addingTodo}>
-            {sub => (
-              <li class="todo pending">
-                <label>{sub.input.get("title")}</label>
-                <button disabled class="destroy" />
-              </li>
-            )}
-          </For>
-        </ul>
-      </main>
-    </section>
-  )
-}
-
-async function addTodoFn(form) {
-  await db.addTodo(form.get("title"))
-  return redirect("/todos")
-}
-async function removeTodoFn(form) {
-  await db.removeTodo(Number(form.get("id")))
-  return redirect("/todos")
-}
-async function toggleTodoFn(form) {
-  await db.toggleTodo(Number(form.get("id")))
-  return redirect("/todos")
-}
-```
-
-### Solid Start Todo Data
-
-```bash
-echo > src/db.js
-```
-
-```js
-// src/db.js
-
-// TODO: This is terribly broken with HMR. Should use real persistent storage.
-
-let COUNTER = 0
-let TODOS = []
-const DELAY = 120
-
-function delay(fn) {
-  return new Promise((res) => setTimeout(() => res(fn()), DELAY))
-}
-
-export default {
-  getTodos() {
-    return delay(() => TODOS)
-  },
-  addTodo(title) {
-    return delay(() => TODOS.push({ id: COUNTER++, title, completed: false }))
-  },
-  removeTodo(id) {
-    return delay(() => (TODOS = TODOS.filter((todo) => todo.id !== id)))
-  },
-  toggleTodo(id) {
-    return delay(() =>
-      TODOS.forEach(
-        (todo) => todo.id === id && (todo.completed = !todo.completed)
-      )
-    )
-  },
-}
-```
-
-### Todo CSS
-
-```css
-/* src/root.css */
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.App {
-  text-align: center;
-}
-
-.header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  font-size: 100%;
-  vertical-align: baseline;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  -webkit-appearance: none;
-  appearance: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.4em;
-  background: #f5f5f5;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 300;
-}
-
-:focus {
-  outline: 0;
-}
-
-.hidden {
-  display: none;
-}
-
-section {
-  background: #fff;
-  margin: 130px 0 40px 0;
-  position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-              0 25px 50px 0 rgba(0, 0, 0, 0.1);
-}
-
-section input::-webkit-input-placeholder {
-  font-style: italic;
-  font-weight: 300;
-  color: #e6e6e6;
-}
-
-section input::-moz-placeholder {
-  font-style: italic;
-  font-weight: 300;
-  color: #e6e6e6;
-}
-
-section input::input-placeholder {
-  font-style: italic;
-  font-weight: 300;
-  color: #e6e6e6;
-}
-
-section h1 {
-  position: absolute;
-  top: -155px;
-  width: 100%;
-  font-size: 100px;
-  font-weight: 100;
-  text-align: center;
-  color: rgba(175, 47, 47, 0.15);
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-}
-
-.new-todo {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  font-size: 24px;
-  font-family: inherit;
-  font-weight: inherit;
-  line-height: 1.4em;
-  color: inherit;
-  padding: 16px 16px 16px 60px;
-  border: 1px solid #999;
-  box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.003);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-main {
-  position: relative;
-  z-index: 2;
-  border-top: 1px solid #e6e6e6;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul li {
-  position: relative;
-  font-size: 24px;
-  border-bottom: 1px solid #ededed;
-}
-
-ul li:last-child {
-  border-bottom: none;
-}
-
-ul li button.toggle {
-  z-index: 1;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  display: flex;
-  align-items: center;
-}
-
-ul li label {
-  word-break: break-all;
-  padding: 15px 15px 15px 60px;
-  display: block;
-  line-height: 1.2;
-  transition: color 0.4s;
-}
-
-ul li.completed label {
-  color: #d9d9d9;
-  text-decoration: line-through;
-}
-
-ul li.pending label {
-  color: #998ef1;
-}
-
-ul li .destroy {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 10px;
-  bottom: 0;
-  width: 40px;
-  height: 40px;
-  margin: auto 0;
-  font-size: 30px;
-  color: #cc9a9a;
-  margin-bottom: 11px;
-  transition: color 0.2s ease-out;
-}
-
-ul li .destroy:hover {
-  color: #af5b5e;
-}
-
-ul li .destroy:after {
-  content: '×';
-}
-
-ul li:hover .destroy {
-  display: block;
-}
-
-/*
-  Hack to remove background from Mobile Safari.
-  Can't use it globally since it destroys checkboxes in Firefox
-*/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .toggle-all,
-  ul li .toggle {
-    background: none;
-  }
-
-  ul li .toggle {
-    height: 40px;
-  }
-}
-```
-
 ## Solid Start Deploy
 
 ### Netlify
@@ -1078,6 +645,20 @@ pnpm add -D solid-start-netlify
   command = "npm run build"
   publish = "netlify"
 ```
+
+```js
+// vite.config.js
+
+import { defineConfig } from "vite"
+import solid from "solid-start/vite"
+import netlify from "solid-start-netlify"
+
+export default defineConfig({
+  plugins: [solid({ adapter: netlify({ edge: true }) })]
+})
+```
+
+Return to [ajcwebdev-solid.netlify.app](https://ajcwebdev-solid.netlify.app/).
 
 ### Vercel
 
