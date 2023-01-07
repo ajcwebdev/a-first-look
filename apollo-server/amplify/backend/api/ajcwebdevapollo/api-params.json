@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/graphql",
+      "lambdaFunction": "apolloserver",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/graphql"
+    }
+  ],
+  "resourceName": "ajcwebdevapollo",
+  "apiName": "ajcwebdevapollo",
+  "functionArns": [
+    {
+      "lambdaFunction": "apolloserver"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-ajcwebdevapollo-dev-15824-authRole",
+    "unAuthRoleName": "amplify-ajcwebdevapollo-dev-15824-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "apolloserver",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

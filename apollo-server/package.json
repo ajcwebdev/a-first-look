@@ -1,0 +1,10 @@
+{
+  "name": "ajcwebdev-apollo-server",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-lambda": "2.14.2",
+    "graphql": "^15.5.3"
+  }
+}

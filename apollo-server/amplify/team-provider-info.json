@@ -1,0 +1,22 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ajcwebdevapollo-dev-15824-authRole",
+      "UnauthRoleArn": "arn:aws:iam::124397940292:role/amplify-ajcwebdevapollo-dev-15824-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::124397940292:role/amplify-ajcwebdevapollo-dev-15824-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-ajcwebdevapollo-dev-15824-deployment",
+      "UnauthRoleName": "amplify-ajcwebdevapollo-dev-15824-unauthRole",
+      "StackName": "amplify-ajcwebdevapollo-dev-15824",
+      "StackId": "arn:aws:cloudformation:us-west-1:124397940292:stack/amplify-ajcwebdevapollo-dev-15824/983b0f30-0ef0-11ec-a1e6-0209a0cff9a3"
+    },
+    "categories": {
+      "function": {
+        "apolloserver": {
+          "deploymentBucketName": "amplify-ajcwebdevapollo-dev-15824-deployment",
+          "s3Key": "amplify-builds/apolloserver-69676c43527a61685954-build.zip"
+        }
+      }
+    }
+  }
+}

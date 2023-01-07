@@ -1,0 +1,12 @@
+[web]
+  title = "Redwood App"
+  port = 8910
+  apiProxyPath = "https://redwood-fly.fly.dev/api/graphql"
+  includeEnvironmentVariables = []
+[api]
+  port = 8911
+[browser]
+  open = true
+[experimental]
+  esbuild = true
+  useEnvelop = false

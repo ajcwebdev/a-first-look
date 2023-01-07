@@ -1,0 +1,9 @@
+{
+  "name": "ajcwebdev-docker-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^3.16.0"
+  }
+}

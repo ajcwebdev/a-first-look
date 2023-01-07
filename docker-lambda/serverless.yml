@@ -1,0 +1,12 @@
+service: ajcwebdev-docker-lambda
+frameworkVersion: '3'
+provider:
+  name: aws
+  ecr:
+    images:
+      appimage:
+        path: ./
+functions:
+  hello:
+    image:
+      name: appimage
