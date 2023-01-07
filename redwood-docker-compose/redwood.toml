@@ -1,0 +1,8 @@
+[web]
+  title = "Redwood App"
+  port = 8910
+  apiUrl = "http://localhost:8911/api"
+[api]
+  port = 8911
+[browser]
+  open = true

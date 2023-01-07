@@ -1,0 +1,13 @@
+{
+  "name": "railway-prisma-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.10.0"
+  },
+  "devDependencies": {
+    "prisma": "^3.10.0"
+  },
+  "type": "module"
+}
