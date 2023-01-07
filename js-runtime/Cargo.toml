@@ -1,0 +1,8 @@
+[package]
+  name = "ajcwebdev-js-runtime"
+  version = "0.1.0"
+  edition = "2021"
+
+[dependencies]
+  deno_core = "0.145.0"
+  tokio = { version = "1.20.1", features = ["full"] }
