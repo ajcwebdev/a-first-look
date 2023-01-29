@@ -13,7 +13,7 @@ function getBaseUrl() {
   return `http://localhost:${process.env.PORT ?? 3000}`
 }
 
-export const trpc = createTRPCNext<AppRouter>({
+export const api = createTRPCNext<AppRouter>({
   config() {
     return {
       links: [
@@ -21,21 +21,12 @@ export const trpc = createTRPCNext<AppRouter>({
       ]
     }
   },
-  ssr: true
+  ssr: false
 })
 
 export default function Index() {
-  const result = trpc.hello.useQuery({ name: 'Next.js Edge' })
-
-  if (!result.data) {
-    return (
-      <><h1>Loading...</h1></>
-    )
-  }
-
   return (
     <>
-      <h1>{result.data.text}</h1>
       <Hello />
     </>
   )

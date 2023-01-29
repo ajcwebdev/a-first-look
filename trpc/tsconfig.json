@@ -12,21 +12,22 @@
     "module": "esnext",
     "target": "esnext",
     "declaration": true,
-    "allowJs": true,
+    "useDefineForClassFields": true,
+    "allowJs": false,
     "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "incremental": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "src",
+    "vite.config.ts"
   ]
 }
