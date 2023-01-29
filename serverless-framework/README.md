@@ -1,22 +1,24 @@
+# Example Project from [A First Look at the Serverless Framework](https://ajcwebdev.com/2021/06/10/a-first-look-at-serverless-framework/)
+
 The [Serverless Framework](https://www.serverless.com/framework/docs/) consists of an open source CLI and a hosted dashboard. Together, they provide you with full serverless application lifecycle management. It helps you develop and deploy your [AWS Lambda](https://www.serverless.com/framework/docs/providers/aws/guide/intro/) functions, along with the AWS infrastructure resources they require.
 
 ## History
 
 It was created by Austen Collins in 2015 as a boilerplate project for a company or something called Servant, whose existence seems to be completely wiped from the internet aside from this git commit.
 
->***Servant Boilerplate LADEN: AWS Lambda, Angular, AWS DynamoDB, Express, Node.js***
->
->*A Servant Boilerplate Application already integrated with [Servant](https://www.servant.co) built on the LADEN stack.  Use this to rapidly build Servant applications. This stack in particular is perfect for integrations or any applciation that needs to offload intense processing tasks to AWS Lambda.  We use this for our apps! –  The Servant Team*
->
->*This boilerplate is current under development...*
->
->***[Austen Collins](https://github.com/ac360)*** - *[Serverless initial commit (April 20, 2015)](https://github.com/serverless/serverless/commit/b297fcb835428108bd1b4e75cb519c0fabff39fa)*
+> ***Servant Boilerplate LADEN: AWS Lambda, Angular, AWS DynamoDB, Express, Node.js***
+> 
+> _A Servant Boilerplate Application already integrated with [Servant](https://www.servant.co) built on the LADEN stack. Use this to rapidly build Servant applications. This stack in particular is perfect for integrations or any application that needs to offload intense processing tasks to AWS Lambda. We use this for our apps! –  The Servant Team_
+> 
+> _This boilerplate is current under development..._
+> 
+> ***[Austen Collins](https://github.com/ac360)*** - *[Serverless initial commit (April 20, 2015)](https://github.com/serverless/serverless/commit/b297fcb835428108bd1b4e75cb519c0fabff39fa)*
 
 When it was officially announced the project was called [JAWS](https://www.youtube.com/watch?v=D_U6luQ6I90) before being renamed to Serverless after the newly formed [Serverless Inc.](https://www.businesswire.com/news/home/20161012005381/en/Serverless-Inc.-Nets-3M-to-Radically-Simplify-Cloud-Infrastructure)
 
->*One of the projects I had recycled the branding from was the JavaScript AWS framework. I'm a big JavaScript fan and at the time there just wasn't a good application framework for AWS. Something that could help developers be productive on AWS.*
->
->***[The Story of the Serverless Framework with Austen Collins (September 14, 2020)](https://www.serverlesschats.com/66/)***
+> _One of the projects I had recycled the branding from was the JavaScript AWS framework. I'm a big JavaScript fan and at the time there just wasn't a good application framework for AWS. Something that could help developers be productive on AWS._
+> 
+> ***[The Story of the Serverless Framework with Austen Collins (September 14, 2020)](https://www.serverlesschats.com/66/)***
 
 ## Core Concepts
 
