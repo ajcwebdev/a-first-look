@@ -3,7 +3,7 @@
   "description": "An example tRPC project",
   "keywords": [
     "tRPC",
-    "TypeScript",
+    "Zod",
     "React",
     "Next"
   ],
@@ -15,26 +15,26 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tanstack/react-query": "^4.22.0",
-    "@trpc/client": "^10.9.0",
-    "@trpc/next": "^10.9.0",
-    "@trpc/react-query": "^10.9.0",
-    "@trpc/server": "^10.9.0",
-    "next": "^13.1.2",
+    "@tanstack/react-query": "^4.26.1",
+    "@trpc/client": "^10.14.1",
+    "@trpc/next": "^10.14.1",
+    "@trpc/react-query": "^10.14.1",
+    "@trpc/server": "^10.14.1",
+    "next": "^13.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "superjson": "^1.12.1",
-    "zod": "^3.20.2"
+    "superjson": "^1.12.2",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.0.1",
+    "@types/node": "^18.14.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
     "npm-run-all": "^4.1.5",
-    "tsx": "^3.12.2",
-    "typescript": "^4.9.4",
-    "vercel": "^28.11.1",
-    "vite": "^4.0.4"
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5",
+    "vercel": "^28.16.15",
+    "vite": "^4.1.4"
   }
 }
