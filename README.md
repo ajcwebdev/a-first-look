@@ -53,5 +53,7 @@ Servers, Runtimes, APIs, GraphQL, and Databases.
 - [Cloudflare R2](/cloudflare-r2/README.md)
 - [Elder.js](/elder/README.md)
 - [Flightcontrol](/flightcontrol/README.md)
+- [LangChain](/langchain/README.md)
 - [Marko](/marko/README.md)
+- [OpenAI](/openai/README.md)
 - [Wasp](/wasp/README.md)

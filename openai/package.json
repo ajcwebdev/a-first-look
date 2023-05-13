@@ -1,0 +1,12 @@
+{
+  "name": "ajcwebdev-openai",
+  "description": "An example Node application with the OpenAI API",
+  "keywords": [ "OpenAI", "openai-node", "GPT", "Node" ],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}

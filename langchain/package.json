@@ -1,0 +1,24 @@
+{
+  "name": "langchain-template-node",
+  "description": "Template for Deploying a LangChain App to Edgio, Railway, and Fly with Node and Docker",
+  "type": "module",
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "scripts": {
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "langchain": "^0.0.64",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^7.0.12",
+    "@edgio/core": "^7.0.12",
+    "@edgio/devtools": "^7.0.12",
+    "@edgio/prefetch": "^7.0.12",
+    "@vercel/nft": "^0.22.6",
+    "dotenv": "^16.0.3"
+  }
+}
