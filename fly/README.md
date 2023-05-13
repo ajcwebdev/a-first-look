@@ -1,4 +1,4 @@
-# Example Project for [A First Look at Fly](https://dev.to/ajcwebdev/a-first-look-at-fly-3a87)
+# Example Project from [A First Look at Fly](https://ajcwebdev.com/2021/08/04/a-first-look-at-fly/)
 
 [Fly](https://fly.io/) is a platform for full stack applications and databases that need to run globally. Fly executes your code close to users and scales compute in cities where your app is busiest. You can run arbitrary Docker containers and host popular databases like Postgres.
 

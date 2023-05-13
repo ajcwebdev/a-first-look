@@ -1,3 +1,5 @@
+# Example Project from [A First Look at SAM](https://ajcwebdev.com/2021/05/02/a-first-look-at-aws-sam/)
+
 AWS [Serverless Application Model (SAM)](https://aws.amazon.com/serverless/sam/) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings.
 
 ## Setup

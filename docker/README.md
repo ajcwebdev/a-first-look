@@ -1,4 +1,4 @@
-# Example project from [A First Look at Docker](https://dev.to/ajcwebdev/a-first-look-at-docker-3hfg)
+# Example Project from [A First Look at Docker](https://ajcwebdev.com/2021/07/12/a-first-look-at-docker/)
 
 [Docker](https://www.docker.com/) is a set of tools that use OS-level virtualization to deliver software in isolated packages called containers. Containers bundle their own software, libraries and configuration files. They communicate with each other through well-defined channels and use fewer resources than virtual machines.
 

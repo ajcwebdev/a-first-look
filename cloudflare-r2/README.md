@@ -1,1 +1,1 @@
-# Example Project from [A First Look at Cloudflare R2]()
+# Example Project from A First Look at Cloudflare R2

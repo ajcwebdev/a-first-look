@@ -1,4 +1,4 @@
-# Example project for [a first look at amplify with vite](https://dev.to/ajcwebdev/a-first-look-at-amplify-with-vite-1g7j)
+# Example Project from [A First Look at Amplify with Vite](https://ajcwebdev.com/2021/05/09/a-first-look-at-amplify-with-vite/)
 
 [AWS Amplify](https://aws.amazon.com/amplify/) is a set of tools and services to help frontend web and mobile developers build scalable fullstack applications with AWS infrastructure.
 

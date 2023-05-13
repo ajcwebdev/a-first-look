@@ -1,4 +1,4 @@
-# Example Project from [A First Look at create-t3-app](https://dev.to/ajcwebdev/a-first-look-at-create-t3-app-1i8f)
+# Example Project from [A First Look at create-t3-app](https://ajcwebdev.com/2022/08/13/a-first-look-at-create-t3-app/)
 
 This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
 

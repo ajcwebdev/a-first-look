@@ -1,4 +1,4 @@
-# Elder.js Template Project
+# Example Project from A First Look at Elder.js
 
 <img src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Node&query=engines.node&url=https%3A%2F%2Fraw.githubusercontent.com%2Felderjs%2Ftemplate%2Fmaster%2Fpackage.json" alt="node version" />
 

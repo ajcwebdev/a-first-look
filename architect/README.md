@@ -1,3 +1,5 @@
+# Example Project from [A First Look at Architect](https://ajcwebdev.com/2021/05/14/a-first-look-at-architect/)
+
 [Architect](https://arc.codes/) is an Infrastructure as Code framework for provisioning build artifacts. Architect defines a high level manifest file in multiple open text formats which can be checked into version control. It compiles the manifest code into AWS CloudFormation and then deploys that stack. Supported formats include:
 * a native text file format `app.arc`
 * `package.json`

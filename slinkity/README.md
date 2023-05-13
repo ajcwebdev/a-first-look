@@ -1,4 +1,4 @@
-# An Example Slinkity Project from [A First Look at Slinkity](https://dev.to/ajcwebdev/a-first-look-at-slinkity-3ig)
+# Example Project from [A First Look at Slinkity](https://ajcwebdev.com/2021/08/08/a-first-look-at-slinkity/)
 
 Slinkity is a framework that uses Vite to bring dynamic, client side interactions to your static 11ty sites. It was announced by [Ben Holmes](https://twitter.com/BHolmesDev) with a Tweet on [June 14, 2021](https://twitter.com/BHolmesDev/status/1404426841440538627) and released as an alpha version on [August 8, 2021](https://www.npmjs.com/package/slinkity).
 

@@ -1,0 +1,1 @@
+# Example Project from [A First Look at SolidStart](https://ajcwebdev.com/2022/11/20/a-first-look-at-solidstart/)

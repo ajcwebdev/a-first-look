@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Example Project from [A First Look at Cloudflare Pages](https://ajcwebdev.com/2021/04/08/a-first-look-at-cloudflare-pages/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

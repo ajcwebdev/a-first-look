@@ -1,4 +1,4 @@
-# Example project from A First Look at Flightcontrol (blog post coming soon)
+# Example Project from A First Look at Flightcontrol
 
 ## Flightcontrol Config
 

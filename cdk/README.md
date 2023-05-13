@@ -1,3 +1,5 @@
+# Example Project from [A First Look at CDK](https://ajcwebdev.com/2021/04/30/a-first-look-at-aws-cdk/)
+
 AWS [Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) is a software development framework for defining cloud infrastructure in code and provisioning it through AWS [CloudFormation](https://aws.amazon.com/cloudformation/). It supports TypeScript, JavaScript, Python, Java, C#/.Net, and (almost) Go.
 
 Developers can use one of the supported programming languages to define reusable cloud components known as ***Constructs*** that are composed together into ***Stacks*** and ***Apps***.

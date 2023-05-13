@@ -1,4 +1,4 @@
-# Example project for [a first look at react 18 with vite and netlify](https://dev.to/ajcwebdev/a-first-look-at-react-18-with-vite-and-netlify-5411)
+# Example Project from [A First Look at React 18 with Vite and Netlify](https://ajcwebdev.com/2021/06/08/a-first-look-at-react-18-with-vite-and-netlify/)
 
 ## Outline
 
