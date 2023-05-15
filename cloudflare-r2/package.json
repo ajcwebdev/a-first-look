@@ -1,0 +1,15 @@
+{
+  "name": "ajcwebdev-r2",
+  "description": "An example application using Cloudflare Workers and R2",
+  "main": "index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "prod": "wrangler publish"
+  },
+  "keywords": [ "Cloudflare", "Cloudflare Workers", "R2", "S3" ],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^2.20.0"
+  }
+}

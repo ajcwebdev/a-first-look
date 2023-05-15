@@ -1,0 +1,11 @@
+name = "ajcwebdev-r2"
+main = "index.js"
+compatibility_date = "2023-03-15"
+
+account_id = "" # ← Include your Account ID.
+workers_dev = true
+
+[[r2_buckets]]
+  binding = "MY_BUCKET"
+  bucket_name = "ajcwebdev-r2-bucket"
+  preview_bucket_name = "ajcwebdev-r2-bucket"
