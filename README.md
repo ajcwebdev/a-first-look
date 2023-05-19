@@ -48,26 +48,26 @@ Servers, Runtimes, APIs, GraphQL, and Databases.
 
 ## Section 4 - GraphQL
 
-- [Apollo Server](/apollo-server/README.md)
-- [Express GraphQL](/express-graphql/README.md)
-- [Grafbase](/grafbase/README.md)
-- [GraphQL Helix](/graphql-helix/README.md)
-- [GraphQL Yoga](/graphql-yoga/README.md)
-- [How to Query a GraphQL API](/how-to-query-a-graphql-api/README.md)
-- [WunderGraph](/wundergraph/README.md)
+- [Apollo Server](/graphql/apollo-server/README.md)
+- [Express GraphQL](/graphql/express-graphql/README.md)
+- [Grafbase](/graphql/grafbase/README.md)
+- [GraphQL Helix](/graphql/graphql-helix/README.md)
+- [GraphQL Yoga](/graphql/graphql-yoga/README.md)
+- [How to Query a GraphQL API](/graphql/how-to-query-a-graphql-api/README.md)
+- [WunderGraph](/graphql/wundergraph/README.md)
 
 ## Section 5 - web3
 
-- [Dash](/dash/README.md)
+- [Dash](/web3/dash/README.md)
 
 ## Upcoming
 
-- [Analog](/analog/README.md)
-- [Bun](/bun/README.md)
-- [Cloudflare R2](/cloudflare-r2/README.md)
-- [Elder.js](/elder/README.md)
-- [Flightcontrol](/flightcontrol/README.md)
-- [LangChain](/langchain/README.md)
-- [Marko](/marko/README.md)
-- [OpenAI](/openai/README.md)
-- [Wasp](/wasp/README.md)
+- [Analog](/upcoming/analog/README.md)
+- [Bun](/upcoming/bun/README.md)
+- [Cloudflare R2](/upcoming/cloudflare-r2/README.md)
+- [Elder.js](/upcoming/elder/README.md)
+- [Flightcontrol](/upcoming/flightcontrol/README.md)
+- [LangChain](/upcoming/langchain/README.md)
+- [Marko](/upcoming/marko/README.md)
+- [OpenAI](/upcoming/openai/README.md)
+- [Wasp](/upcoming/wasp/README.md)
