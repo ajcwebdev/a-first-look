@@ -1,0 +1,23 @@
+{
+  "name": "taking-astro-to-the-moon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@astrojs/react": "^0.4.2",
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "astro": "^1.0.0-rc.3",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "vercel": "^27.3.3"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  }
+}

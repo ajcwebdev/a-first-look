@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    color: #f4f4f4;
+    justify-content: center;
+    height: 100%;
+    padding-top: 10vh;
+    background: #1f2937;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  .body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .body dl {
+    display: flex;
+    flex-direction: column;
+  }
+  .body dt {
+    color: #6ee7b7;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .body dd {
+    font-size: 0.85rem;
+    max-width: calc(100vw - 40px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  dl, dt, dd {
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .header h1 {
+    display: inline-block;
+    font-size: inherit;
+    margin: 0;
+  }
+  .justifyCenter {
+    justify-content: center;
+    text-align: center;
+  }
+  .walletButtonGroup {
+    margin: 10px 0;
+    min-height: 46px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .buttonMetaMask {
+    --button-bg-color: #f6851b;
+  }
+  .buttonWave {
+    --button-bg-color: #fde68a;
+    --text-100: #1f2937;
+  }
+  .buttonEmoji {
+    padding-right: 10px;
+  }
+  .button:hover {
+    -webkit-filter: brightness(80%);
+  }
+  .button:active {
+    transform: translate(1px, 1px);
+  }
+  .button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--button-bg-color);
+    color: var(--text-100);
+    text-decoration: none;
+  }
+  .buttonGroup {
+    margin: 10px 0;
+    min-height: 46px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .message {
+    margin-top: 10px;
+  }
+  .textWrapper {
+    margin-bottom: 20px;
+  }
+  .textWrapper label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .textBox {
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  .wave {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 10px;
+    justify-content: flex-start;
+    background-color: rgba(55, 65, 81, 0.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .waveList {
+    margin: 35px 0;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    animation: fadeslow 3s;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .buttonGroup {
+      flex-direction: row;
+    }
+    .walletButtonGroup {
+      flex-direction: row;
+    }
+    .wave {
+      flex-direction: row;
+    }
+    .body dl {
+      display: grid;
+      gap: 5px 10px;
+      grid-template-columns: auto 1fr;
+    }
+    .body dt {
+      font-size: 0.95rem;
+    }
+    .body dd {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @keyframes fadeslow {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

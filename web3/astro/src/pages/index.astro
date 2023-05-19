@@ -1,0 +1,31 @@
+---
+import HelloReact from '../HelloReact.jsx'
+
+let title = 'Taking Astro to the Moon'
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+    <title>{title}</title>
+  </head>
+  
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>Taking Astro to the Moon</h1>
+        </div>
+
+        <p>Woot!</p>
+        
+        <HelloReact client:visible>
+          Moooooooon
+        </HelloReact>
+      </header>
+    </main>
+  </body>
+</html>
