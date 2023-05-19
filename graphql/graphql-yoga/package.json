@@ -1,0 +1,17 @@
+{
+  "name": "ajcwebdev-graphql-yoga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build server",
+    "dev": "ntl dev"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.7.2",
+    "netlify-lambda": "^2.0.14"
+  }
+}

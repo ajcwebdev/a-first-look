@@ -46,6 +46,20 @@ Servers, Runtimes, APIs, GraphQL, and Databases.
 - [t3](/t3/README.md)
 - [tRPC](/trpc/README.md)
 
+## Section 4 - GraphQL
+
+- [Apollo Server](/apollo-server/README.md)
+- [Express GraphQL](/express-graphql/README.md)
+- [Grafbase](/grafbase/README.md)
+- [GraphQL Helix](/graphql-helix/README.md)
+- [GraphQL Yoga](/graphql-yoga/README.md)
+- [How to Query a GraphQL API](/how-to-query-a-graphql-api/README.md)
+- [WunderGraph](/wundergraph/README.md)
+
+## Section 5 - web3
+
+- [Dash](/dash/README.md)
+
 ## Upcoming
 
 - [Analog](/analog/README.md)
