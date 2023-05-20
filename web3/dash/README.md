@@ -1,1 +1,1 @@
-# Example Project from [A First Look at Dash]()
+# A First Look at Dash

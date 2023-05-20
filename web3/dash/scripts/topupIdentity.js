@@ -1,14 +1,16 @@
 import { client } from './client.js'
 
-const topupIdentity = async () => {
-  const identityId = process.env.IDENTITY_ID
-  const topUpAmount = 1000
+const { IDENTITY_ID } = process.env
 
-  await client.platform.identities.topUp(identityId, topUpAmount)
-  return client.platform.identities.get(identityId)
+const topupIdentity = async () => {
+  const { platform } = client
+  await platform.identities.topUp(IDENTITY_ID, 1000)
+  return platform.identities.get(IDENTITY_ID)
 }
 
 topupIdentity()
-  .then(data => console.log('Identity credit balance: ', data.balance))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(
+    'IDENTITY_CREDIT_BALANCE=' + data.balance)
+  )
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

@@ -1,10 +1,15 @@
 import { client } from './client.js'
 
+const { IDENTITY_ID } = process.env
+
 const retrieveIdentity = async () => {
-  return client.platform.identities.get(process.env.IDENTITY_ID)
+  const { platform } = client
+  return platform.identities.get(IDENTITY_ID)
 }
 
 retrieveIdentity()
-  .then(data => console.log(data.toJSON()))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(
+    "IDENTITY_OBJECT=" + JSON.stringify(data))
+  )
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

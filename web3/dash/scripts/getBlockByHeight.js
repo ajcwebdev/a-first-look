@@ -1,7 +1,8 @@
 import { client } from "./client.js"
 
 async function getBlockByHeight() {
-  const res = await client.getDAPIClient().core.getBlockByHeight(1)
+  const DAPIClient = client.getDAPIClient()
+  const res = await DAPIClient.core.getBlockByHeight(1)
   if (!res) {
     throw new Error('No response received from getBlockByHeight API call')
   }
@@ -9,6 +10,6 @@ async function getBlockByHeight() {
 }
 
 getBlockByHeight()
-  .then((data) => console.log(data))
-  .catch((err) => console.error('Something went wrong:\n', err))
+  .then(data => console.log(data))
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

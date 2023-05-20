@@ -1,11 +1,12 @@
 import { client } from './client.js'
 
 const retrieveIdentityIds = async () => {
-  const account = await client.getWalletAccount()
-  return account.identities.getIdentityIds()
+  const walletAccount = await client.getWalletAccount()
+  const identityIds = walletAccount.identities.getIdentityIds()
+  return identityIds
 }
 
 retrieveIdentityIds()
   .then(data => console.log(data))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

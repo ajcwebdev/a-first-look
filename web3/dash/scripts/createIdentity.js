@@ -1,10 +1,14 @@
 import { client } from './client.js'
 
 const createIdentity = async () => {
-  return client.platform.identities.register()
+  const { platform } = client
+  const identity = await platform.identities.register()
+  return identity
 }
 
 createIdentity()
-  .then(data => console.log(data.toJSON()))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(
+    "IDENTITY_ID=" + `"${data.toJSON().id}"`)
+  )
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

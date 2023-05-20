@@ -1,11 +1,12 @@
 import { client } from './client.js'
 
 const retrieveName = async () => {
-  // Retrieve by full name (e.g., myname.dash)
-  return client.platform.names.resolve('ajcwebdevtest.dash')
+  const { platform } = client
+  const name = platform.names.resolve('ajcwebdevtest.dash')
+  return name
 }
 
 retrieveName()
-  .then(data => console.log('Name retrieved:\n', data.toJSON()))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(JSON.stringify(data)))
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

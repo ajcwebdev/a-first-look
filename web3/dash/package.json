@@ -1,24 +1,32 @@
 {
   "name": "ajcwebdev-dash",
   "description": "An example application using the Dash JavaScript SDK",
-  "main": "index.js",
+  "keywords": [ "Dash", "JavaScript" ],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start:server": "node server/api",
-    "dev:server": "node server/api",
+    "getBestBlockHash": "node scripts/getBestBlockHash",
+    "getBlockHash": "node scripts/getBlockHash",
+    "getBlockByHeight": "node scripts/getBlockByHeight",
+    "createWallet": "node scripts/createWallet",
+    "createIdentity": "node scripts/createIdentity",
+    "retrieveIdentity": "node scripts/retrieveIdentity",
+    "retrieveIdentityIds": "node scripts/retrieveIdentityIds",
+    "updateIdentityDisableKey": "node scripts/updateIdentityDisableKey",
+    "topupIdentity": "node scripts/topupIdentity",
+    "registerName": "node scripts/registerName",
+    "retrieveName": "node scripts/retrieveName",
+    "start:server": "node api/server",
+    "dev:server": "node api/server",
     "dev:client": "vite",
     "build:client": "vite build",
     "start:client": "vite preview",
     "start": "run-p start:*",
     "dev": "run-p dev:*",
-    "vercel": "vercel dev"
+    "vercel": "vercel dev",
+    "netlify": "ntl dev"
   },
-  "keywords": [
-    "Dash",
-    "JavaScript"
-  ],
-  "author": "Anthony Campolo",
-  "license": "MIT",
-  "type": "module",
   "dependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "cors": "^2.8.5",
@@ -29,7 +37,7 @@
     "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vercel": "^29.3.4",
+    "vercel": "^29.3.6",
     "vite": "^4.3.8"
   }
 }

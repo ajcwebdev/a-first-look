@@ -1,21 +1,23 @@
 import { client } from './client.js'
 
-const updateIdentityDisableKey = async () => {
-  const identityId = process.env.IDENTITY_ID
-  const keyId = 0
+const { IDENTITY_ID } = process.env
 
-  const existingIdentity = await client.platform.identities.get(identityId)
-  const publicKeyToDisable = existingIdentity.getPublicKeyById(keyId)
+const updateIdentityDisableKey = async () => {
+  const { platform } = client
+  const existingIdentity = await platform.identities.get(IDENTITY_ID)
+  const publicKeyToDisable = existingIdentity.getPublicKeyById(0)
 
   const updateDisable = {
     disable: [publicKeyToDisable],
   }
 
-  await client.platform.identities.update(existingIdentity, updateDisable)
-  return client.platform.identities.get(identityId)
+  await platform.identities.update(existingIdentity, updateDisable)
+  return platform.identities.get(IDENTITY_ID)
 }
 
 updateIdentityDisableKey()
-  .then(data => console.log('Identity updated:\n', data.toJSON()))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(
+    'IDENTITY_ID=' + data.toJSON())
+  )
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

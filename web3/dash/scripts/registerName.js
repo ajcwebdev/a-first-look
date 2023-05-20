@@ -1,18 +1,20 @@
 import { client } from './client.js'
 
+const { IDENTITY_ID } = process.env
+
 const registerName = async () => {
   const { platform } = client
-  const identityID = process.env.IDENTITY_ID
-  const identity = await platform.identities.get(identityID)
+  const identity = await platform.identities.get(IDENTITY_ID)
+  const dashUniqueIdentityId = await identity.getId()
   const nameRegistration = await platform.names.register(
-    'ajcwebdevtest.dash',
-    { dashUniqueIdentityId: identity.getId() },
-    identity,
+    "ajcwebdevtest.dash", { dashUniqueIdentityId }, identity,
   )
   return nameRegistration
 }
 
 registerName()
-  .then(data => console.log('Name registered:\n', data.toJSON()))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(
+    "DASH_NAME=" + JSON.stringify(data.toJSON().label)
+  ))
+  .catch(error => console.error("Something went wrong:\n", error))
   .finally(() => client.disconnect())

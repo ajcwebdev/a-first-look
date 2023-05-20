@@ -1,5 +1,3 @@
-// api/name/[identityName].js
-
 import Dash from "dash"
 
 const client = new Dash.Client({ network: 'testnet' })

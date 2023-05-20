@@ -2,14 +2,14 @@ import Dash from "dash"
 import * as dotenv from "dotenv"
 dotenv.config()
 
+const { MNEMONIC, NETWORK } = process.env
+
 export const client = new Dash.Client({
-  network: 'testnet',
+  network: NETWORK,
   wallet: {
-    // mnemonic: null,
-    // offlineMode: true,
-    mnemonic: process.env.MNEMONIC,
+    mnemonic: MNEMONIC,
     unsafeOptions: {
-      skipSynchronizationBeforeHeight: 650000, // only sync from early-2022
+      skipSynchronizationBeforeHeight: 890000, // only sync from early-2022
     },
   },
 })

@@ -1,14 +1,16 @@
 import { client } from './client.js'
 
 const createWallet = async () => {
-  const account = await client.getWalletAccount()
+  const walletAccount = await client.getWalletAccount()
   const mnemonic = client.wallet.exportWallet()
-  const { address } = account.getUnusedAddress()
-  console.log('Unused address:', address)
+  const { address } = walletAccount.getUnusedAddress()
+  console.log("WALLET_ADDRESS=" + `"${address}"`)
   return mnemonic
 }
 
 createWallet()
-  .then(data => console.log('Mnemonic:', data))
-  .catch((e) => console.error('Something went wrong:\n', e))
+  .then(data => console.log(
+    "MNEMONIC=" + `"${data}"`
+  ))
+  .catch(error => console.error('Something went wrong:\n', error))
   .finally(() => client.disconnect())

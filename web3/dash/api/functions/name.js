@@ -1,4 +1,4 @@
-const Dash = require("dash")
+import Dash from "dash"
 
 const client = new Dash.Client({ network: 'testnet' })
 
