@@ -1,0 +1,14 @@
+{
+  "name": "postgraphile-railway",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "postgraphile": "^4.13.0"
+  }
+}

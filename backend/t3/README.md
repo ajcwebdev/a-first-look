@@ -1,5 +1,7 @@
 # Example Project from [A First Look at create-t3-app](https://ajcwebdev.com/2022/08/13/a-first-look-at-create-t3-app/)
 
+[`create-t3-app`](https://create.t3.gg/) is a fullstack React framework and CLI that has emerged as an evolution of the T3 stack recommended on Theo Browne's website [`init.tips`](https://init.tips/). It's described by its creators as "kind of a template," which is meant to stress that it is ["NOT a template"](https://twitter.com/t3dotgg/status/1544394504685645824).
+
 ## Clone Repo and Navigate to Project
 
 ```bash

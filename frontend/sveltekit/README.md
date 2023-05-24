@@ -6,3 +6,10 @@
 git clone https://github.com/ajcwebdev/a-first-look.git
 cd frontend/sveltekit
 ```
+
+## Install Dependencies and Start Development Server
+
+```bash
+pnpm i
+pnpm dev
+```

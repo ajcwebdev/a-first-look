@@ -2,17 +2,11 @@
   <h1>{{ msg }}</h1>
 
   <p>
-    <a
-      href="https://dev.to/ajcwebdev"
-      target="_blank"
-    >
+    <a href="https://ajcwebdev.com" target="_blank">
       Blog
     </a>
     |
-    <a
-      href="https://github.com/ajcwebdev"
-      target="_blank"
-    >
+    <a href="https://github.com/ajcwebdev" target="_blank">
       GitHub
     </a>
   </p>
