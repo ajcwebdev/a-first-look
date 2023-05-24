@@ -2,27 +2,12 @@
 
 [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) is an event-driven serverless compute platform that manages deploying and maintaining servers. It provides all up-to-date resources and orchestration needed to keep your applications running. Developer tools for debugging are included along with triggers and bindings for integrating services.
 
-## Outline
+## Clone Repo and Navigate to Project
 
-1. Project Structure
-  * `host.json`
-  * `local.settings.json`
-2. HTTP trigger
-  * `index.js`
-  * `function.json`
-3. Test function locally
-  * Install the Azure Functions Core Tools
-  * `func start`
-4. Create an Azure subscription
-  * Install the Azure CLI
-  * Check version number with `az version`
-  * Log in with `az login`
-  * Configure subscription with `az account set`
-5. Create a function app
-  * Create a resource group with `az group create`
-  * Create a storage account with `az storage account create`
-  * Create a function app with `az functionapp create`
-  * Publish app with `func azure functionapp publish`
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/azure-functions
+```
 
 ## 1. Project Structure
 

@@ -2,30 +2,12 @@
 
 [Docker](https://www.docker.com/) is a set of tools that use OS-level virtualization to deliver software in isolated packages called containers. Containers bundle their own software, libraries and configuration files. They communicate with each other through well-defined channels and use fewer resources than virtual machines.
 
-## Outline
+## Clone Repo and Navigate to Project
 
-* Node project with an Express server
-  * Run server
-* Container image
-  * Dockerfile
-  * dockerignore
-  * Build project with docker build
-  * List Docker images with docker images
-* Run the image
-  * Run Docker container with docker run
-  * List containers with docker ps
-  * Print output of app with docker logs
-  * Call app using curl
-* Docker Compose file
-  * Create and start containers with docker compose up
-* Push your project to a GitHub repository
-  * Initialize Git
-  * Create a new blank repository
-* Publish to GitHub Container Registry
-  * Login to ghcr with docker login
-  * Tag image with docker tag
-  * Push to registry with docker push
-  * Pull your image with docker pull
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/docker
+```
 
 ## Node project with an Express server
 

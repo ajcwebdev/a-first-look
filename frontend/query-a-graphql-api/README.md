@@ -1,4 +1,11 @@
-# How to Query a GraphQL API
+# Example Project from How to Query a GraphQL API
+
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd frontend/query-a-graphql-api
+```
 
 ## Fetch
 

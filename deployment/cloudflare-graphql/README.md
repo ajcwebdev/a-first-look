@@ -1,5 +1,12 @@
 # Example Project from Run GraphQL on the Edge with Cloudflare Workers
 
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/cloudflare-graphql
+```
+
 # workers-graphql-server
 
 An [Apollo GraphQL](https://www.apollographql.com/) server, built with [Cloudflare Workers](https://workers.cloudflare.com). [Try a demo by looking at a deployed GraphQL playground](https://graphql-on-workers.signalnerve.com/___graphql).

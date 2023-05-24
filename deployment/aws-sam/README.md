@@ -2,6 +2,13 @@
 
 AWS [Serverless Application Model (SAM)](https://aws.amazon.com/serverless/sam/) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings.
 
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/aws-sam
+```
+
 ## Setup
 
 ### Configure AWS CLI with `aws configure`

@@ -1,23 +1,4 @@
-# Example Project from [Create a dApp on Avalanche's Fuji Testnet with QuickNode](https://ajcwebdev.com/2022/06/02/how-to-create-a-dapp-on-avalanches-fuji-testnet-with-quicknode/)
-
-## Outline
-
-- Introduction
-- Configure MetaMask Wallet for Avalanche
-  - Add Avalanche Network
-  - Fuji Testnet Faucet
-  - Hello World Solidity Contract
-  - Deployment Script
-  - Hardhat Configuration
-- Deploy Avalanche Node on QuickNode
-  - Create an Endpoint
-  - Deploy Contract to Fuji
-- React App
-  - Start Development Server
-  - Deploy to Netlify
-- Resources
-
-## Introduction
+# Example Project from [Create a dApp on Avalanche's Fuji Testnet with QuickNode](https://www.quicknode.com/guides/other-chains/avalanche/how-to-create-a-dapp-on-avalanches-fuji-testnet-with-quicknode/)
 
 [Avalanche](https://www.avax.network/) is an open-source, proof-of-stake blockchain with smart contract functionality that uses the Snow family of consensus protocols. Avalanche features [3 built-in blockchains](https://docs.avax.network/overview/getting-started/avalanche-platform) that are validated and secured by the Primary Network:
 * [Exchange Chain (X-Chain)](https://docs.avax.network/overview/getting-started/avalanche-platform/#exchange-chain-x-chain) - Acts as a decentralized platform for creating and trading digital smart assets like AVAX. These assets are a representation of a real-world resource with a set of rules that govern its behavior. The X-Chain is an instance of the Avalanche Virtual Machine (AVM). 
@@ -25,6 +6,13 @@
 * [Contract Chain (C-Chain)](https://docs.avax.network/overview/getting-started/avalanche-platform/#contract-chain-c-chain) - Allows for the creation smart contracts using the [C-Chain’s API](https://docs.avax.network/apis/avalanchego/apis/c-chain).
 
 <p align="center"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1652371334021/gR7DyKNei.png" alt="00-avalanche-primary-network-diagram.png" width="500" /></p>
+
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd web3/avalanche
+```
 
 ## Configure MetaMask Wallet for Avalanche
 
@@ -317,16 +305,3 @@ Your build settings will be imported from the `netlify.toml` file. The only othe
 Go to "Domain settings" to give your site a custom domain. You can see this example at [ajcwebdev-avalanche.netlify.app](https://ajcwebdev-avalanche.netlify.app/).
 
 <p align="center"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1652374868431/DYXiMhe8J.png" alt="17-deployed-website-on-netlify.png" width="500" /></p>
-
-## Resources
-
-* [Avalanche Documentation](https://docs.avax.network/)
-* [Avalanche Blog](https://medium.com/avalancheavax)
-* [Avalanche Block Explorer](https://explorer.avax.network/)
-* [Avalanche Bridge](https://docs.avascan.info/how-to-use-avascan/avalanche-bridge)
-* [Twitter](https://twitter.com/avalancheavax)
-* [Ecosystem](https://ecosystem.avax.network)
-* [Community](https://www.avax.network/community)
-* [Foundation](https://www.avax.network/)
-* [Ava Labs](https://www.avalabs.org/)
-* [Ava Labs GitHub](https://github.com/ava-labs)

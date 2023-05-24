@@ -2,6 +2,13 @@
 
 [Serverless Cloud](https://www.serverless.com/cloud) is a new serverless app platform from [Serverless, Inc.](https://serverless.com/) Unlike the company's initial product, the [Serverless Framework](https://www.serverless.com/framework), it does not deploy your application directly to AWS. Instead, your apps are instantly deployed and live on a new hosting service in the cloud with a dashboard and real-time logs.
 
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/serverless-cloud
+```
+
 ## Setup
 
 ### Install Cloud CLI

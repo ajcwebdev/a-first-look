@@ -2,6 +2,13 @@
 
 Slinkity is a framework that uses Vite to bring dynamic, client side interactions to your static 11ty sites. It was announced by [Ben Holmes](https://twitter.com/BHolmesDev) with a Tweet on [June 14, 2021](https://twitter.com/BHolmesDev/status/1404426841440538627) and released as an alpha version on [August 8, 2021](https://www.npmjs.com/package/slinkity).
 
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd frontend/slinkity
+```
+
 ## ⛔️ WARNING - ALPHA SOFTWARE ⛔️
 
 Slinkity is in early alpha and not recommended for production use unless you like living on the edge and filing issues. You can report issues or log bugs [here](https://github.com/Holben888/slinkity/issues).

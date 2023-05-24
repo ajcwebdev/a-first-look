@@ -2,6 +2,13 @@
 
 [Fly](https://fly.io/) is a platform for full stack applications and databases that need to run globally. Fly executes your code close to users and scales compute in cities where your app is busiest. You can run arbitrary Docker containers and host popular databases like Postgres.
 
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/docker-fly
+```
+
 ## Fly Setup
 
 ### Install flyctl

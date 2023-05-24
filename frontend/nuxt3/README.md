@@ -2,19 +2,12 @@
 
 Nuxt is a Vue metaframework that aims to make web development intuitive and performant while keeping great developer experience in mind. The original version, created by [Sébastien Chopin in October 2016](https://github.com/nuxt/nuxt.js/commit/0072ed31da6ce39d21046e05898f956cff190390), was built to emulate the features of Next.js (such as file-system based routing, server-side rendering, and API routes) but with Vue instead of React. Version 3 has been [over a year in the making](https://nuxtjs.org/announcements/nuxt3-beta/).
 
-## Outline
+## Clone Repo and Navigate to Project
 
-* [Live Examples](#live-examples)
-* [Overview](#overview)
-  * [Scripts](#scripts)
-  * [Start Development Server](#start-development-server)
-  * [Build for Production](#build-for-production)
-  * [Directory Structure](#directory-structure)
-  * [Home Page](#home-page)
-  * [About Page](#about-page)
-  * [Server Directory for API Routes](#server-directory-for-api-routes)
-* [Netlify Deployment](#netlify-deployment)
-* [Vercel Deployment](#vercel-deployment)
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd frontend/nuxt3
+```
 
 ## Live Examples
 

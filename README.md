@@ -17,7 +17,6 @@ Containers, Serverless Functions, Edge Functions, Infrastructure as Code, Object
 - [AWS Fargate](/deployment/aws-fargate/)
 - [AWS SAM](/deployment/aws-sam/)
 - [Azure Functions](/deployment/azure-functions/)
-- [Begin](/deployment/begin/)
 - [Cloudflare Pages](/deployment/cloudflare-pages/)
 - [Cloudflare Workers](/deployment/cloudflare-workers/)
 - [Cloudflare Workers GraphQL](/deployment/cloudflare-graphql)

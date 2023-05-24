@@ -2,14 +2,12 @@
 
 In this example we will use the Vercel starter to make Fetch requests containing GraphQL queries.
 
-## Outline
+## Clone Repo and Navigate to Project
 
-* [Introduction](#introduction)
-* [Deploy to Vercel](#deploy-to-vercel)
-* [Project Setup](#project-setup)
-  * [Index Routes](#index-routes)
-  * [CSS Styling](#css-styling)
-  * [Loader Functions](#loader-functions)
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd frontend/remix
+```
 
 ## Introduction
 

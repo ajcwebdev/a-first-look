@@ -4,17 +4,12 @@
 
 [Docker](https://www.docker.com/) is a set of tools that use OS-level virtualization to deliver software in isolated packages called containers. Containers bundle their own software, libraries and configuration files. [Fly](https://fly.io/) is a platform for full stack applications and databases that need to run globally. You can run arbitrary Docker containers and host popular databases like Postgres.
 
-## Outline
+## Clone Repo and Navigate to Project
 
-- GraphQL Express Server
-  - Run Local Server and Execute Test Query
-- Dockerfile
-- Docker Compose
-  - Create and Start Containers with Docker Compose
-- Deploy to Fly
-  - Install and Authenticate Fly CLI
-  - Launch App on Fly
-  - Deploy Fly Application
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/docker-express-graphql
+```
 
 ## GraphQL Express Server
 

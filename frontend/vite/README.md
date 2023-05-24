@@ -5,13 +5,18 @@
 * A dev server with Hot Module Replacement (HMR) that serves your source files over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 * A build command that bundles your code with [Rollup](https://rollupjs.org), pre-configured to output highly optimized static assets for production
 
-## Clone repo, install dependencies, and run development server
-
-To run this project on your local machine enter these commands to clone the repo, install the dependencies with `yarn` and start the development server with `yarn dev`.
+## Clone Repo and Navigate to Project
 
 ```bash
-git clone https://github.com/ajcwebdev/ajcwebdev-vite
-cd ajcwebdev-vite
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd frontend/vite
+```
+
+## Install dependencies and run development server
+
+To run this project on your local machine enter these commands to install the dependencies with `yarn` and start the development server with `yarn dev`.
+
+```bash
 yarn
 yarn dev
 ```

@@ -4,16 +4,12 @@ A [Cloudflare Worker](https://blog.cloudflare.com/introducing-cloudflare-workers
 
 The [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) is a W3C standard API for scripts that run in the background in a web browser and intercept HTTP requests. Cloudflare Workers are written against the same standard API but run on Cloudflare's edge network instead of the browser.
 
-## Outline
+## Clone Repo and Navigate to Project
 
-* [Install the Wrangler CLI](#install-the-wrangler-cli)
-  * [Install Wrangler with Volta](#install-wrangler-with-volta)
-  * [Login to Cloudflare Account](#login-to-cloudflare-account)
-* [Workers Project](#workers-project)
-  * [Wrangler Configuration File](#wrangler-configuration-file)
-  * [Workers Script](#workers-script)
-  * [Test Worker Locally](#test-worker-locally)
-* [Deploy Worker to Cloudflare](#deploy-worker-to-cloudflare)
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/cloudflare-workers
+```
 
 ## Install the Wrangler CLI
 

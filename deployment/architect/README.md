@@ -7,24 +7,20 @@
 * `arc.yaml`
 * `arc.toml`
 
-### Install dependencies
+## Clone Repo and Navigate to Project
 
 ```bash
-npm i -g @architect/architect aws-sdk
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/architect
 ```
 
-### Check version
-
-```bash
-arc version
-```
-
-### Start local development server
+## Install Dependencies and Start Development Server
 
 Architect projects work locally and offline. `arc sandbox` emulates most app resources defined in `app.arc`:
 
 ```bash
-arc sandbox
+pnpm i
+pnpm start
 ```
 
 ### app.arc
@@ -122,13 +118,15 @@ exports.handler = async function http (req) {
 
 ![02-arc-hello-world-edit](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m53jtk1iekdmdannaaui.png)
 
-## Deploy to staging environment
+## Deploy
+
+### Deploy to Staging Environment
 
 ```bash
 arc deploy
 ```
 
-## Deploy to production environment
+### Deploy to Production Environment
 
 ```bash
 arc deploy production

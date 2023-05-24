@@ -1,22 +1,11 @@
 # Example Project from [A First Look at React 18 with Vite and Netlify](https://ajcwebdev.com/2021/06/08/a-first-look-at-react-18-with-vite-and-netlify/)
 
-## Outline
+## Clone Repo and Navigate to Project
 
-### Create React App with Vite's React Template
-* Install dependencies
-* Start development server
-
-### Install `react@alpha` and `react-dom@alpha`
-* main.jsx
-* App.jsx
-
-### Deploy to Netlify
-* Create `netlify.toml`
-* Add `publish` directory and `build` command
-* Create a blank GitHub repository at [repo.new](https://repo.new/).
-* Connect your GitHub repository to Netlify
-* Build commands are included from `netlify.toml`
-* Set a custom domain
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd frontend/react18
+```
 
 ## React 18
 

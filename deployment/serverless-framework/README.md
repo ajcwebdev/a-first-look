@@ -2,6 +2,13 @@
 
 The [Serverless Framework](https://www.serverless.com/framework/docs/) consists of an open source CLI and a hosted dashboard. Together, they provide you with full serverless application lifecycle management. It helps you develop and deploy your [AWS Lambda](https://www.serverless.com/framework/docs/providers/aws/guide/intro/) functions, along with the AWS infrastructure resources they require.
 
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/serverless-framework
+```
+
 ## History
 
 It was created by Austen Collins in 2015 as a boilerplate project for a company or something called Servant, whose existence seems to be completely wiped from the internet aside from this git commit.

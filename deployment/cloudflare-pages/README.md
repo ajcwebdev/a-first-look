@@ -1,33 +1,12 @@
 # Example Project from [A First Look at Cloudflare Pages](https://ajcwebdev.com/2021/04/08/a-first-look-at-cloudflare-pages/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Cloudflare Pages](https://pages.cloudflare.com/) is a Jamstack platform for frontend developers to collaborate and deploy websites.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-* `yarn start` - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-* `yarn test` - Launches the test runner in the interactive watch mode.
-* `yarn build` - Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-* `yarn eject` - If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-# Cloudflare Pages
-
-[Cloudflare Pages](https://pages.cloudflare.com/) is a Jamstack platform for frontend developers to collaborate and deploy websites. You can replicate this repo by following these steps:
-
-## Create a React app
+## Clone Repo and Navigate to Project
 
 ```bash
-npx create-react-app ajcwebdev-cfpages
-cd ajcwebdev-cfpages
-```
-
-Create a [blank repository](https://repo.new/) on GitHub with the same name as your React project.
-
-```bash
-git branch -M main
-git remote add origin https://github.com/ajcwebdev/ajcwebdev-cfpages.git
-git push -u origin main
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd deployment/cloudflare-pages
 ```
 
 Sign up for [Cloudflare Pages](https://pages.cloudflare.com/).

@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Example Project from A First Look at Hardhat and Ethers
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+## Clone Repo and Navigate to Project
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd web3/ethers
 ```

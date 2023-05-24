@@ -1,18 +1,18 @@
 # Example Project from [A First Look at create-t3-app](https://ajcwebdev.com/2022/08/13/a-first-look-at-create-t3-app/)
 
-This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
+## Clone Repo and Navigate to Project
+
+```bash
+git clone https://github.com/ajcwebdev/a-first-look.git
+cd backend/t3
+```
 
 ## Install Dependencies and Setup Database
 
-First you will need to install dependencies with `pnpm`.
+Install dependencies with `pnpm` and create a new `.env` file from the example provided:
 
 ```bash
 pnpm i
-```
-
-Then you will need to create a new `.env` file from the example provided:
-
-```bash
 cp .env.example .env
 ```
 
