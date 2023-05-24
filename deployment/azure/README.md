@@ -1,4 +1,4 @@
-# Example Project for [A First Look at Azure Functions](https://dev.to/ajcwebdev/a-first-look-at-azure-functions-i6f)
+# Example Project from [A First Look at Azure Functions](https://ajcwebdev.com/2021/07/11/a-first-look-at-azure-functions)
 
 [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) is an event-driven serverless compute platform that manages deploying and maintaining servers. It provides all up-to-date resources and orchestration needed to keep your applications running. Developer tools for debugging are included along with triggers and bindings for integrating services.
 

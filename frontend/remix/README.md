@@ -1,4 +1,4 @@
-# Example Project from [A First Look at Remix](https://dev.to/ajcwebdev/a-first-look-at-remix-2cp1)
+# Example Project from [A First Look at Remix](https://ajcwebdev.com/2021/05/06/a-first-look-at-remix)
 
 In this example we will use the Vercel starter to make Fetch requests containing GraphQL queries.
 

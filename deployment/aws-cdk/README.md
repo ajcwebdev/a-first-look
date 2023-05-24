@@ -1,4 +1,4 @@
-# Example Project from [A First Look at CDK](https://ajcwebdev.com/2021/04/30/a-first-look-at-aws-cdk/)
+# Example Project from [A First Look at CDK](https://ajcwebdev.com/2021/04/30/a-first-look-at-aws-cdk)
 
 AWS [Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) is a software development framework for defining cloud infrastructure in code and provisioning it through AWS [CloudFormation](https://aws.amazon.com/cloudformation/). It supports TypeScript, JavaScript, Python, Java, C#/.Net, and (almost) Go.
 
@@ -17,7 +17,7 @@ This is a project for JavaScript development with CDK. The `cdk.json` file tells
 
 ## Setup
 
-You can recreate this same project from scratch with the following instructions. See my blog post [a first look at aws cdk](https://dev.to/ajcwebdev/a-first-look-at-aws-cdk-2036) for a more in depth tutorial.
+You can recreate this same project from scratch with the following instructions. See my blog post [a first look at aws cdk](https://ajcwebdev.com/2021/04/30/a-first-look-at-aws-cdk) for a more in depth tutorial.
 
 ### Configure AWS CLI with `aws configure`
 

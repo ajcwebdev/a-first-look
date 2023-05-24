@@ -1,79 +1,86 @@
 # A First Look Monorepo
 
+- [Section 1 - Deployment](#section-1---deployment)
+- [Section 2 - Frontend](#section-2---frontend)
+- [Section 3 - Backend](#section-3---backend)
+- [Section 4 - web3](#section-4---web3)
+- [Section 5 - Upcoming](#section-5---upcoming)
+
 ## Section 1 - Deployment
 
 Containers, Serverless Functions, Edge Functions, Infrastructure as Code, Object Storage, and Virtual Machines.
 
-- [GitHub Actions](/actions/README.md)
-- [Amplify](/amplify/README.md)
-- [Architect](/architect/README.md)
-- [Azure](/azure/README.md)
-- [Begin](/begin/README.md)
-- [AWS CDK](/cdk/README.md)
-- [Cloudflare Pages](/cloudflare-pages/README.md)
-- [Cloudflare Workers](/cloudflare-workers/README.md)
-- [Docker](/docker/README.md)
-- [Docker Lambda](/docker-lambda/README.md)
-- [Fly](/fly/README.md)
-- [PM2](/pm2/README.md)
-- [Pulumi](/pulumi/README.md)
-- [AWS SAM](/sam/README.md)
-- [Serverless Cloud](/serverless-cloud/README.md)
-- [Serverless Framework](/serverless-framework/README.md)
+- [GitHub Actions](/deployment/actions/)
+- [Architect](/deployment/architect/)
+- [AWS Amplify](/deployment/aws-amplify/)
+- [AWS CDK](/deployment/aws-cdk/)
+- [AWS Fargate](/deployment/aws-fargate/)
+- [AWS SAM](/deployment/aws-sam/)
+- [Azure Functions](/deployment/azure-functions/)
+- [Begin](/deployment/begin/)
+- [Cloudflare Pages](/deployment/cloudflare-pages/)
+- [Cloudflare Workers](/deployment/cloudflare-workers/)
+- [Cloudflare Workers GraphQL](/deployment/cloudflare-graphql)
+- [Docker](/deployment/docker/)
+- [Docker Express GraphQL](/deployment/docker-express-graphql/)
+- [Docker Fly](/deployment/docker-fly/)
+- [Docker Lambda](/deployment/docker-lambda/)
+- [PM2](/deployment/pm2/)
+- [Pulumi](/deployment/pulumi/)
+- [Serverless Cloud](/deployment/serverless-cloud/)
+- [Serverless Framework](/deployment/serverless-framework/)
+- [Serverless GraphQL API](/deployment/serverless-graphql-api/)
 
 ## Section 2 - Frontend
 
 Client Side Libraries, Server-Side Rendering Frameworks, Static Site Generators, Meta-frameworks, and Build Tools.
 
-- [Astro](/astro/README.md)
-- [Astro SSR](/astro-ssr/README.md)
-- [Nuxt 3](/nuxt3/README.md)
-- [React 18](/react18/README.md)
-- [Remix](/remix/README.md)
-- [Slinkity](/slinkity/README.md)
-- [SolidStart](/solidstart/README.md)
-- [SvelteKit](/sveltekit/README.md)
-- [Vite](/vite/README.md)
+- [Astro](/frontend/astro/)
+- [Astro SSR](/frontend/astro-ssr/)
+- [Custom Daily Greeting](/frontend/custom-daily-greeting)
+- [Nuxt 3](/frontend/nuxt3/)
+- [Query a GraphQL API](/frontend/query-a-graphql-api/)
+- [React 18](/frontend/react18/)
+- [Remix](/frontend/remix/)
+- [Slinkity](/frontend/slinkity/)
+- [SolidStart](/frontend/solidstart/)
+- [SvelteKit](/frontend/sveltekit/)
+- [Vite](/frontend/vite/)
 
 ## Section 3 - Backend
 
 Servers, Runtimes, APIs, GraphQL, and Databases.
 
-- [Deno](/deno/README.md)
-- [Oak](/oak/README.md)
-- [Railway and PostGraphile](/railway-postgraphile/README.md)
-- [Railway, Prisma, and MongoDB](/railway-prisma-mongo/README.md)
-- [t3](/t3/README.md)
-- [tRPC](/trpc/README.md)
+- [Deno](/backend/deno/)
+- [GraphQL Helix](/backend/graphql-helix/)
+- [Oak](/backend/oak/)
+- [PostGraphile and Railway](/backend/postgraphile-railway/)
+- [Prisma, MongoDB, and Atlas](/backend/prisma-mongo-atlas/)
+- [Prisma, MongoDB, and Railway](/backend/prisma-mongo-railway/)
+- [t3](/backend/t3/)
+- [tRPC](/backend/trpc/)
 
-## Section 4 - GraphQL
+## Section 4 - web3
 
-- [Apollo Server](/graphql/apollo-server/README.md)
-- [Express GraphQL](/graphql/express-graphql/README.md)
-- [Grafbase](/graphql/grafbase/README.md)
-- [GraphQL Helix](/graphql/graphql-helix/README.md)
-- [GraphQL Yoga](/graphql/graphql-yoga/README.md)
-- [How to Query a GraphQL API](/graphql/how-to-query-a-graphql-api/README.md)
-- [WunderGraph](/graphql/wundergraph/README.md)
+- [Astro](/web3/astro/)
+- [Avalanche](/web3/avalanche/)
+- [Dash](/web3/dash/)
+- [Eth Address](/web3/ethaddress/)
+- [Ethers](/web3/ethers/)
+- [IPFS](/web3/ipfs/)
+- [Svelte](/web3/svelte/)
 
-## Section 5 - web3
+## Section 5 - Upcoming
 
-- [Astro](/web3/astro/README.md)
-- [Avalanche](/web3/avalanche/README.md)
-- [Dash](/web3/dash/README.md)
-- [Eth Address](/web3/ethaddress/README.md)
-- [Ethers](/web3/ethers/README.md)
-- [IPFS](/web3/ipfs/README.md)
-- [Svelte](/web3/svelte/README.md)
-
-## Upcoming
-
-- [Analog](/upcoming/analog/README.md)
-- [Bun](/upcoming/bun/README.md)
-- [Cloudflare R2](/upcoming/cloudflare-r2/README.md)
-- [Elder.js](/upcoming/elder/README.md)
-- [Flightcontrol](/upcoming/flightcontrol/README.md)
-- [LangChain](/upcoming/langchain/README.md)
-- [Marko](/upcoming/marko/README.md)
-- [OpenAI](/upcoming/openai/README.md)
-- [Wasp](/upcoming/wasp/README.md)
+- [Analog](/upcoming/analog/)
+- [Bun](/upcoming/bun/)
+- [Cloudflare R2](/upcoming/cloudflare-r2/)
+- [Elder.js](/upcoming/elder/)
+- [Flightcontrol](/upcoming/flightcontrol/)
+- [Grafbase](/upcoming/grafbase/)
+- [Hono](/upcoming/hono/)
+- [LangChain](/upcoming/langchain/)
+- [Marko](/upcoming/marko/)
+- [OpenAI](/upcoming/openai/)
+- [Wasp](/upcoming/wasp/)
+- [WunderGraph](/upcoming/wundergraph/)

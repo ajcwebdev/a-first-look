@@ -1,0 +1,1 @@
+Example Project from [Can I Use mongoDB with Prisma Yet?](https://ajcwebdev.com/2021/04/21/can-i-use-mongodb-with-prisma-yet/)

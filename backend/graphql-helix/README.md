@@ -1,0 +1,1 @@
+# Example Project from [A First Look at GraphQL Helix](https://ajcwebdev.com/2021/09/20/a-first-look-at-graphql-helix/)

@@ -1,0 +1,1 @@
+Example Project from [A First Look at AWS Fargate](https://ajcwebdev.com/2021/09/06/a-first-look-at-aws-fargate)

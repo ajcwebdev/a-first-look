@@ -18,7 +18,7 @@ yarn dev
 
 ## Create Vue App
 
-Alternatively, you can recreate this project from scratch with the following instructions. You can find a [more detailed version of this tutorial on my blog](https://dev.to/ajcwebdev/a-first-look-at-vite-m8n/).
+Alternatively, you can recreate this project from scratch with the following instructions. You can find a [more detailed version of this tutorial on my blog](https://ajcwebdev.com/2021/03/05/a-first-look-at-vite/).
 
 ### Initialize project
 

@@ -1,4 +1,4 @@
-# Example Project from [A First Look at Serverless Cloud](https://dev.to/ajcwebdev/a-first-look-at-serverless-cloud-3e18)
+# Example Project from [A First Look at Serverless Cloud](https://ajcwebdev.com/2021/09/02/a-first-look-at-serverless-cloud)
 
 [Serverless Cloud](https://www.serverless.com/cloud) is a new serverless app platform from [Serverless, Inc.](https://serverless.com/) Unlike the company's initial product, the [Serverless Framework](https://www.serverless.com/framework), it does not deploy your application directly to AWS. Instead, your apps are instantly deployed and live on a new hosting service in the cloud with a dashboard and real-time logs.
 
