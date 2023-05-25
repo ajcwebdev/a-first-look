@@ -30,7 +30,7 @@
   <button on:click={handleClick}>
     Fetch Data
   </button>
-  <pre class="leftCenter">
+  <pre class="alignLeft">
     <p class="preLeft">
       {isLoading ? 'Loading...' : JSON.stringify(blockchainData, null, 2)}
     </p>

@@ -6,7 +6,7 @@
     <HelloWorld msg="Vite + Vue" />
     <h1>Dash + Vue + Express</h1>
     <button @click="triggerFetch = true">Fetch Data</button>
-    <p class="leftCenter">
+    <p class="alignLeft">
       <pre class="preLeft">
         {{ isLoading ? 'Loading...' : JSON.stringify(blockchainData, null, 2) }}
       </pre>
