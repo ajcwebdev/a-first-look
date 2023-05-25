@@ -77,7 +77,6 @@ Servers, Runtimes, APIs, GraphQL, and Databases.
 - [Elder.js](/upcoming/elder/)
 - [Flightcontrol](/upcoming/flightcontrol/)
 - [Grafbase](/upcoming/grafbase/)
-- [Hono](/upcoming/hono/)
 - [LangChain](/upcoming/langchain/)
 - [Marko](/upcoming/marko/)
 - [OpenAI](/upcoming/openai/)
