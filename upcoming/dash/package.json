@@ -17,15 +17,7 @@
     "topupIdentity": "node scripts/topupIdentity",
     "registerName": "node scripts/registerName",
     "retrieveName": "node scripts/retrieveName",
-    "start:server": "node api/server",
-    "dev:server": "node api/server",
-    "dev:client": "vite",
-    "build:client": "vite build",
-    "start:client": "vite preview",
-    "start": "run-p start:*",
-    "dev": "run-p dev:*",
-    "vercel": "vercel dev",
-    "netlify": "ntl dev"
+    "serve": "node api/server"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.0.0",
