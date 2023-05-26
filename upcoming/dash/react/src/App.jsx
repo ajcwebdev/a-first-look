@@ -9,7 +9,6 @@ function App() {
   const fetchData = () => {
     setIsLoading(true) // Set loading to true when fetch begins
     fetch('http://localhost:3001/name/ajcwebdevtest')
-    // fetch('http://localhost:3000/name/ajcwebdevtest')
       .then(response => response.json())
       .then(data => {
         setBlockchainData(data)

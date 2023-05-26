@@ -1,8 +1,10 @@
 import { client } from './client.js'
 
+const { DASH_NAME } = process.env
+
 const retrieveName = async () => {
   const { platform } = client
-  const name = platform.names.resolve('ajcwebdevtest.dash')
+  const name = platform.names.resolve(DASH_NAME)
   return name
 }
 

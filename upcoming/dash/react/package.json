@@ -1,7 +1,7 @@
 {
-  "name": "ajcwebdev-dash",
-  "description": "An example application using the Dash JavaScript SDK",
-  "keywords": [ "Dash", "JavaScript" ],
+  "name": "ajcwebdev-dash-react",
+  "description": "An example Dash application using React",
+  "keywords": [ "Dash", "React" ],
   "author": "Anthony Campolo",
   "license": "MIT",
   "type": "module",
@@ -12,12 +12,10 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "dash": "^3.24.4",
-    "dotenv": "^16.0.3",
     "netlify-cli": "^15.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vercel": "^29.3.6",
-    "vite": "^4.3.8"
+    "vite": "^4.3.9"
   }
 }

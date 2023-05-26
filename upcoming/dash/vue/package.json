@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev:client": "vite",
+    "build:client": "vite build",
+    "preview:client": "vite preview"
   },
   "dependencies": {
     "vue": "^3.2.47"

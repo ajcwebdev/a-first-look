@@ -9,5 +9,8 @@ export const client = new Dash.Client({
   network: NETWORK,
   wallet: {
     mnemonic: MNEMONIC,
+    unsafeOptions: {
+      skipSynchronizationBeforeHeight: 700000,
+    },
   },
 })
