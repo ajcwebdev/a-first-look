@@ -5,8 +5,14 @@
   "author": "Anthony Campolo",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "listModels": "node listModels",
+    "createCompletion": "node createCompletion",
+    "createChatCompletion": "node createChatCompletion",
+    "tldrSummary": "node tldrSummary"
+  },
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "openai": "^3.2.1"
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0"
   }
 }

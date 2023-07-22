@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build"
-  functions = "api/functions"
-  publish = "dist"
