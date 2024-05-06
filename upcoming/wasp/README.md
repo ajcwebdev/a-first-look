@@ -1,1 +1,0 @@
-# Example Project from [A First Look at Wasp]()
