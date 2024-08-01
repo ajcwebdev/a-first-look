@@ -59,8 +59,9 @@ Servers, Runtimes, APIs, GraphQL, and Databases.
 - [t3](/backend/t3/)
 - [tRPC](/backend/trpc/)
 
-## AI
+## AI/Python
 
 - [LangChain](/ai/langchain/)
 - [OpenAI](/ai/openai/)
+- [Poetry](/ai/poetry/)
 - [Replicate](/ai/replicate/)

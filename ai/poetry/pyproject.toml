@@ -1,0 +1,16 @@
+# pyproject.toml
+
+[tool.poetry]
+  name = "ajcwebdev-poetry"
+  version = "0.1.1"
+  description = "A getting started example repo for Poetry created by Anthony Campolo"
+  authors = ["Anthony Campolo <12433465+ajcwebdev@users.noreply.github.com>"]
+  readme = "README.md"
+
+[tool.poetry.dependencies]
+  python = "^3.12"
+cowsay = "^6.1"
+
+[build-system]
+  requires = ["poetry-core"]
+  build-backend = "poetry.core.masonry.api"
