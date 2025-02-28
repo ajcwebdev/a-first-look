@@ -1,0 +1,19 @@
+{
+  "name": "audio-transcription-apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index.js",
+    "deepgram": "node --env-file=.env index.js deepgram",
+    "assemblyai": "node --env-file=.env index.js assemblyai",
+    "compare": "node --env-file=.env index.js compare",
+    "format": "node --env-file=.env index.js format",
+    "all": "node --env-file=.env index.js all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
