@@ -1,0 +1,14 @@
+{
+  "name": "ajc-repomix",
+  "description": "",
+  "author": "Anthony Campolo",
+  "keywords": ["Repomix"],
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.8.2"
+  }
+}
