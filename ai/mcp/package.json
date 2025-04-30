@@ -1,0 +1,23 @@
+{
+  "name": "ajc-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.10.2",
+    "openai": "4.96.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.1",
+    "dotenv": "16.5.0",
+    "tsx": "4.19.3",
+    "typescript": "5.8.3"
+  }
+}
