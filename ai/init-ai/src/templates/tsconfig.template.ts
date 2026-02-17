@@ -1,0 +1,45 @@
+const tsconfigTemplate = (): string => {
+  return JSON.stringify({
+    compilerOptions: {
+      target: "esnext",
+      module: "preserve",
+      lib: ["esnext"],
+      strict: true,
+      noImplicitAny: true,
+      strictNullChecks: true,
+      strictFunctionTypes: true,
+      strictBindCallApply: true,
+      strictPropertyInitialization: true,
+      strictBuiltinIteratorReturn: true,
+      noImplicitThis: true,
+      useUnknownInCatchVariables: true,
+      alwaysStrict: true,
+      exactOptionalPropertyTypes: true,
+      noImplicitReturns: true,
+      noFallthroughCasesInSwitch: true,
+      noUncheckedIndexedAccess: true,
+      noImplicitOverride: true,
+      noPropertyAccessFromIndexSignature: true,
+      noUnusedLocals: true,
+      noUnusedParameters: true,
+      allowUnusedLabels: false,
+      allowUnreachableCode: false,
+      isolatedModules: true,
+      esModuleInterop: true,
+      verbatimModuleSyntax: true,
+      moduleDetection: "force",
+      moduleResolution: "bundler",
+      forceConsistentCasingInFileNames: true,
+      noEmitOnError: true,
+      useDefineForClassFields: true,
+      disableSizeLimit: false,
+      stripInternal: true,
+      skipLibCheck: true,
+      allowImportingTsExtensions: false,
+      allowJs: false,
+      diagnostics: true
+    }
+  }, null, 2)
+}
+
+export { tsconfigTemplate }

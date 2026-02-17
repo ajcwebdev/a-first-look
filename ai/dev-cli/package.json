@@ -1,0 +1,20 @@
+{
+  "name": "dev-cli",
+  "scripts": {
+    "repo": "bash repomix.sh",
+    "check": "bunx tsc --noEmit",
+    "cli": "bun run src/cli.ts"
+  },
+  "author": "Anthony Campolo",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest",
+    "repomix": "1.4.0",
+    "typescript": "5.9.2"
+  },
+  "type": "module",
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}

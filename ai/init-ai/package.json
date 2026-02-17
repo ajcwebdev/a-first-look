@@ -1,0 +1,50 @@
+{
+  "name": "init-ai",
+  "version": "1.0.0",
+  "description": "CLI tool to initialize TypeScript projects with AI development setup",
+  "main": "index.ts",
+  "bin": {
+    "init-ai": "./bin/init-ai.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "index.ts",
+    "README.md",
+    "docs/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repo": "bash repomix.sh",
+    "dev": "tsx --env-file=.env --no-warnings index.ts",
+    "check": "npx tsc --noEmit",
+    "config": "tsx --no-warnings index.ts config",
+    "build": "echo \"No build step required - using tsx\"",
+    "start": "tsx index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "cli",
+    "init",
+    "ai",
+    "development",
+    "project-generator",
+    "tsx",
+    "repomix"
+  ],
+  "author": "Anthony Campolo <dev@ajcweb.dev>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "14.0.0",
+    "tsx": "4.20.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "repomix": "1.4.0",
+    "typescript": "5.9.2"
+  },
+  "type": "module"
+}

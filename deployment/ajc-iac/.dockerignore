@@ -1,0 +1,9 @@
+node_modules
+.git
+.gitignore
+*.md
+docs
+dist
+.solid
+.vinxi
+storage
