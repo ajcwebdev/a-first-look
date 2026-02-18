@@ -1,0 +1,9 @@
+{
+  "name": "ajcwebdev-llama",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "description": "A First Look at Llama.cpp and Llamafile example project.",
+  "type": "module"
+}
