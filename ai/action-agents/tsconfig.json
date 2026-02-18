@@ -1,0 +1,17 @@
+{
+  // TypeScript compiler configuration to target Node.js 22 ESM
+  "compilerOptions": {
+    "target": "ESNext", // Use latest ECMAScript features
+    "module": "NodeNext", // ESM modules for Node
+    "moduleResolution": "NodeNext",
+    "outDir": "dist", // Emit compiled files into this folder
+    "rootDir": "src", // Base directory for our input TypeScript
+    "esModuleInterop": true, // Smooth import of CommonJS modules
+    "skipLibCheck": true, // Do not check .d.ts files in node_modules
+    "allowImportingTsExtensions": true, // Allow importing .ts files
+    "noEmit": true, // Disable emitting output files
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
