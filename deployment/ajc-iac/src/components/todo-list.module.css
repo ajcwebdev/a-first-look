@@ -1,0 +1,104 @@
+.todosSection {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.todosSectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 1.5rem 0;
+}
+
+.emptyState {
+  padding: 2rem;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+.todoList {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.todoItemActive {
+  background: #ffffff;
+}
+
+.todoItemCompleted {
+  background: #f1f5f9;
+}
+
+.checkbox {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+.todoText {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.todoTextActive {
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.todoTextCompleted {
+  color: #94a3b8;
+  text-decoration: line-through;
+}
+
+.editInput {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid #3b82f6;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.editButton {
+  background: #f59e0b;
+}
+
+.saveButton {
+  background: #10b981;
+}
+
+.cancelButton {
+  background: #6b7280;
+}
+
+.deleteButton {
+  background: #ef4444;
+}

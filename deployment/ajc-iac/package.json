@@ -1,0 +1,30 @@
+{
+  "name": "ajc-iac",
+  "type": "module",
+  "description": "Tutorial on IaC to IfC",
+  "author": "Anthony Campolo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "repo": "bash repomix.sh",
+    "check": "npx tsc --noEmit",
+    "docker:build": "docker build -t ajc-iac .",
+    "docker:run": "docker run --name ajc-iac -p 3000:3000 -v $(pwd)/storage:/app/storage ajc-iac",
+    "up": "docker system prune -af --volumes && bun run docker:build && bun run docker:run"
+  },
+  "dependencies": {
+    "@solidjs/router": "0.15.3",
+    "@solidjs/start": "^1.1.0",
+    "solid-js": "^1.9.5",
+    "vinxi": "^0.5.7"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.1",
+    "typescript": "5.9.3"
+  }
+}
