@@ -1,0 +1,1 @@
+Vector databases are specialized databases designed to store and query high-dimensional vector embeddings. They enable similarity search, which is crucial for AI applications like recommendation systems, semantic search, and RAG (Retrieval Augmented Generation). Popular vector databases include Pinecone, Weaviate, Qdrant, and Chroma.

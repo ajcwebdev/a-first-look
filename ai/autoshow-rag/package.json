@@ -1,0 +1,34 @@
+{
+  "name": "autoshow-rag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repo": "bash repomix.sh",
+    "dev": "tsx --env-file=.env --no-warnings index.ts",
+    "check": "npx tsc --noEmit",
+    "as": "tsx --env-file=.env --no-warnings index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "better-sqlite3": "11.6.0",
+    "commander": "14.0.0",
+    "glob": "11.0.0",
+    "openai": "4.77.0",
+    "pg": "8.13.1",
+    "sqlite-vec": "0.1.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "7.6.12",
+    "@types/node": "24.0.10",
+    "@types/pg": "8.11.10",
+    "repomix": "1.1.0",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3",
+    "wrangler": "4.23.0"
+  },
+  "type": "module"
+}

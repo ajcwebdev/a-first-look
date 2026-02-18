@@ -1,0 +1,1 @@
+FSJam is a fullstack development conference that brings together developers from around the world to discuss modern web technologies, serverless architectures, and the latest trends in JavaScript frameworks.

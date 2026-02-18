@@ -1,0 +1,1 @@
+Cloudflare Workers is a serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure. Workers run on Cloudflare's global network in over 300 cities around the world, automatically scaling as needed.
